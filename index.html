@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Market</title>
+    <style>
+     /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for the layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-animals {
+    margin-bottom: 20px;
+}
+
+.animal-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.animal-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+.buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+.buy-button:hover {
+            background-color: #555;
+        }        
+        
+.animal-card img {
+    max-width: 25%;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+  
+    </style>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="shortcut icon" href="https://www.downloadclipart.net/large/20035-circle-cow-head-design.png">  
+</head>
+<body style="background-image: url('http://www.pixelstalk.net/wp-content/uploads/2016/06/Light-Blue-HD-Backgrounds-Free-Download.jpg');">
+    <header>
+        <h1>Welcome to Animal Market</h1>
+        <p>Your one-stop destination for buying and selling domestic animals.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.jsp">Browse Animals</a></li>
+            <li><a href="register.jsp">Sell Animals</a></li>
+            <li><a href="mission1.jsp">Our Mission</a></li>
+            <li><a href="register.jsp">Login/Register</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section class="featured-animals">
+            <h2>Animals On Sale:</h2>
+           
+            <hr>
+
+            <div class="animal-card">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.tnyTjF7eQDACGuPc6cv16QHaE0&pid=Api&P=0&h=180" alt="Animal 2">
+                <h3>Breed: Jersey</h3>
+                <p>Price: RS.54590</p>
+                <p>Description: Milk: 23L, Age:5yrs, Health: Good.</p>
+                <a href="login.jsp" class="buy-button">Buy</a>
+            </div>
+            
+            <div class="animal-card">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.kMGtCtsVPvlsjmLUQEmCwwHaFj&pid=Api&P=0&h=180" alt="Animal 1">
+                <h3>Breed: Carlios</h3>
+                <p>Price: Rs.68650</p>
+                <p>Description: Milk: 25L, Age:4yrs, Health: Good.</p>
+                <a href="login.jsp" class="buy-button">Buy</a>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.SDsrqxzTQ8IXyfTxKrY2kgHaE8&pid=Api&P=0&h=180" alt="Animal 2">
+                <h3>Breed: Red Agnus</h3>
+                <p>Price: Rs.93359</p>
+                <p>Description: Milk: 25L, Age:4yrs, Health: Good.</p>
+                <a href="login.jsp" class="buy-button">Buy</a>
+            </div>
+            
+            <div class="animal-card">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Z_SwT2WZ7BtEgFYRUo8XOwHaFj&pid=Api&P=0&h=180" alt="Animal 1">
+                <h3>Breed: Malvi</h3>
+                <p>Price: Rs.66600</p>
+                <p>Description: Milk: 28L, Age:5yrs, Health: Good.</p>
+                <a href="login.jsp" class="buy-button">Buy</a>
+            </div>
+            <!-- Add more featured animal cards as needed -->
+        </section>
+
+        <section class="how-it-works">
+            
+            
+            <h2>How It Works</h2>
+            <p>Buying and selling animals on Animal Market is easy!</p>
+            <ol>
+                <li>Search for animals you're interested in.</li>
+                <li>Contact the seller for more information.</li>
+                <li>Arrange a meeting and make the deal.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Animal Market</p>
+    </footer>
+</body>
+</html>
